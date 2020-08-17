@@ -10,27 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a8be827-5657-4e98-b373-751b49559403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/EasyAdminSubscriber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/field_support.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/field_support.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ChoicesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ChoicesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ChoicesType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChoicesType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/choices/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/choices/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/choices/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/choices/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="9a8be827-5657-4e98-b373-751b49559403" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +165,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -215,7 +196,16 @@
       <workItem from="1596491078612" duration="615000" />
       <workItem from="1597408179476" duration="1774000" />
       <workItem from="1597580310089" duration="2078000" />
+      <workItem from="1597685682633" duration="233000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1597685848142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597685848142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +225,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595528232268">
@@ -249,10 +241,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="649" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597408508861" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1595850967121">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1597685728064">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1595850967121" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597685728064" />
     <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1597425977318">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -269,6 +261,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597425977318" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1597685896510">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1597685896510" />
     <state x="620" y="208" key="new project wizard" timestamp="1596486358379">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
