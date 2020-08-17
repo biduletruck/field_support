@@ -42,3 +42,5 @@ require('bootstrap-star-rating/themes/krajee-svg/theme.css');
 // $(document).ready(function() {
 //     $('body').prepend('<h1>'+greet('yann')+'</h1>');
 // });
+
+// import './ajax';

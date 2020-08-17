@@ -12,6 +12,7 @@
         "doctrine/orm": "^2.7",
         "easycorp/easyadmin-bundle": "^3.1",
         "laminas/laminas-code": "^3.4",
+        "michaeldegroot/doctrine-encrypt-bundle": "^4.0",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "5.1.*",

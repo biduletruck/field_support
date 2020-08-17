@@ -1,4 +1,28 @@
-{{ form_start(form) }}
-    {{ form_widget(form) }}
-    <button class="btn">{{ button_label|default('Save') }}</button>
-{{ form_end(form) }}
+
+    <form>
+        <div class="form-group">
+
+        {{ form_start(form, {'attr': {'class': 'form'}}) }}
+        {# Les erreurs générales du formulaire. #}
+        {{ form_errors(form) }}
+
+        <div class="">
+
+            {{ form_errors(form.Advisor) }}
+            {{ form_widget(form.Advisor, {'attr': {'class': 'form-control'}}) }}
+        </div>
+
+        <div class="">
+
+            {{ form_errors(form.Category) }}
+            {{ form_widget(form.Category, {'attr': {'class': 'form-control'}}) }}
+        </div>
+
+        {{ form_end(form) }}
+
+
+        <button class="btn btn-success">{{ button_label|default('Save') }}</button>
+        {{ form_end(form) }}
+        </div>
+    </div>
+

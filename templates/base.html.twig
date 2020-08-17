@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         {% block stylesheets %}
             {# 'app' must match the first argument to addEntry() in webpack.config.js #}
             {{ encore_entry_link_tags('app') }}
@@ -12,9 +13,11 @@
         {% endblock %}
     </head>
     <body>
+   <div class="row">
+       {% block body %}
+       {% endblock %}
+   </div>
 
-    {% block body %}
-    {% endblock %}
 
     {% block javascripts %}
         {{ encore_entry_script_tags('app') }}
@@ -24,4 +27,26 @@
             <script src="/build/app.js"></script> -->
     {% endblock %}
     </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+    var $post_category = $("#post_category")
+        var $token = $("#post_tokoen")
+
+        $post_category.change(function () {
+            var $form = $(this).closest('form')
+
+            var data = {}
+
+            data[$token.attr('name')] = $post_category.val()
+            data[$post_category.attr('action').data].then(function (response) {
+                $("#post_sub_category").replaceWith(
+                    $(response).find("#post_sub_category")
+                )
+
+            })
+
+        })
+    </script>
 </html>

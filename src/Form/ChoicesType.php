@@ -42,6 +42,17 @@ class ChoicesType extends AbstractType
             }
         );
 
+        $builder->get('Category')->addEventListener(
+            FormEvents::PRE_SET_DATA,
+            function (FormEvent $event)
+            {
+                $form = $event->getForm();
+                $data = $event->getData();
+                $sub_category = $data->getSubCategories();
+                $form->get('Category')->setData($sub_category->getCategory());
+            }
+        );
+
         $builder
             ->add('User', EntityType::class, [
                 'class' => "App\Entity\Users",

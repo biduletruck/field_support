@@ -3,14 +3,21 @@
 {% block title %}Edit Choices{% endblock %}
 
 {% block body %}
-    <div class="row">
-        <h1>Edit Choices</h1>
+    <div class="col-lg-12">
+        <div class="jumbotron">
+            <h1>Edit Choices</h1>
+        </div>
+        <div class="col-lg-12">
+            {{ include('choices/_form.html.twig', {'button_label': 'Update'}) }}
 
-        {{ include('choices/_form.html.twig', {'button_label': 'Update'}) }}
+            <a href="{{ path('choices_index') }}">back to list</a>
 
-        <a href="{{ path('choices_index') }}">back to list</a>
-
-        {{ include('choices/_delete_form.html.twig') }}
+            {{ include('choices/_delete_form.html.twig') }}
+        </div>
     </div>
+
+
+
+
 
 {% endblock %}

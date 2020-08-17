@@ -78,6 +78,8 @@ class ChoicesController extends AbstractController
         ]);
     }
 
+
+
     /**
      * @Route("/{id}", name="choices_delete", methods={"DELETE"})
      */
