@@ -31,7 +31,3 @@ services:
     # please note that last definitions always *replace* previous ones
     App\EventSubscriber\EasyAdminSubscriber:
         arguments: [ "@doctrine.orm.entity_manager"]
-
-    ambta_doctrine_encrypt:
-        encryptor_class: Halite # ou Defuse
-        secret_directory_path: ' % kernel.project_dir% '
